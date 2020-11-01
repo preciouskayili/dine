@@ -1,0 +1,23 @@
+body {
+    height: 100%;
+}
+.bg {
+    background-image: url('../../img/food.jpg');
+    height: 50%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.old-book{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.info {
+    background-image: url('../../img/info.jpg');
+    height: 25%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
