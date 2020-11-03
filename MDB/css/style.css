@@ -21,3 +21,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.icon {
+    font-size: 25px;
+    padding-right: 15px;
+
+}
+.header {
+    background-image: url('../../img/header.jpg');
+    height: 25%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
