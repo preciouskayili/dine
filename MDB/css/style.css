@@ -1,5 +1,6 @@
 body {
     height: 100%;
+    overflow-x: hidden;
 }
 .bg {
     background-image: url('../../img/food.jpg');
@@ -33,4 +34,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.scrolling-wrapper {
+    overflow-x: scroll;
 }

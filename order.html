@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="fontawesome-free-5.15.0-web/fontawesome-free-5.15.0-web/css/all.css"
+    />
+    <link rel="stylesheet" href="MDB/css/style.css" />
+    <link rel="stylesheet" href="MDB/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="MDB/css/mdb.min.css" />
+    <title>Dine</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-sm navbar-light bg-white sticky-top z-depth-0"
+    >
+      <a class="navbar-brand" href="#">Dine</a>
+       <div class="container">
+        <div class="col-md-9">
+          <input type="text" style="border-radius: 0px 0px 0px 0px;" placeholder="Enter your search terms and hit enter" class="form-control">
+        </div>
+        <div class="col-md-3">
+          <button class="btn btn-primary btn-md z-depth-0"><i class="fa fa-search"></i></button>
+        </div>
+      </div>
+      <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        style="border: 0px"
+      >
+        <i class="fa fa-align-right"></i>
+      </button>
+     
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <div class="col-md-9">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+              </div>
+              <!-- <div class="col-md-3"> -->
+                <span class="badge badge-pill badge-primary">4</span>
+              <!-- </div> -->
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <footer>
+      <div class="container-fluid bg-primary">
+        <div class="container">
+          <div class="row p-5">
+            <div class="col-md-6 text-white">
+              <h3>The Dine Mandate</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Suscipit ad dicta distinctio veritatis facilis ducimus nostrum
+                consequuntur consectetur quaerat! Nostrum ex veritatis incidunt
+                eos? Aut, eligendi error. Quasi, quae nobis!
+              </p>
+            </div>
+            <div class="col-md-6 text-white">
+              <h3>Follow us on our social media handles</h3>
+              <p>
+                Be the first to get the latest updates on all our newset changes
+                and new features Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
+              </p>
+              <i class="fab fa-facebook-f icon"></i>
+              <i class="fab fa-twitter icon"></i>
+              <i class="fab fa-instagram icon"></i>
+              <i class="fab fa-pinterest-p icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid pt-3" id="inner"></div>
+    </footer>
+    <script>
+      let date = new Date();
+      let year = date.getFullYear();
+      document.querySelector(
+        "#inner"
+      ).innerHTML = `<p class="text-center">Copyright &copy; Dine ${year}</p>`;
+    </script>
+    <script src="MDB/js/jquery.min.js"></script>
+    <script src="MDB/js/popper.min.js"></script>
+    <script src="MDB/js/bootstrap.min.js"></script>
+    <script src="MDB/js/mdb.min.js"></script>
+  </body>
+</html>
